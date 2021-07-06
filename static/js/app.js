@@ -24,3 +24,9 @@ function buildTable(data) {
       );
     });
   }
+
+  function handClick() {
+      let date = d3.select("#datetime").property("value");
+      let filteredData = tableData;
+
+  }
