@@ -25,6 +25,7 @@ function buildTable(data) {
     });
   }
 
+<<<<<<< HEAD
   function handleClick() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
@@ -49,3 +50,10 @@ function buildTable(data) {
   
   // Build the table when the page loads
   buildTable(tableData);
+=======
+  function handClick() {
+      let date = d3.select("#datetime").property("value");
+      let filteredData = tableData;
+
+  }
+>>>>>>> 22957da10999a23e7d9c597a80ed403101e2068f
